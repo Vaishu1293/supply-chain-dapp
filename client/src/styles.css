@@ -1,0 +1,74 @@
+html {
+  font-size: 10px;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.App {
+  padding: 4rem;
+  font-size: 1.6rem;
+  color: #333;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+label {
+  font-weight: bold;
+  margin-right: 0.8rem;
+}
+
+input[type="text"],
+input[type="number"] {
+  padding: 0.6rem;
+  margin-right: 1.2rem;
+  margin-bottom: 1.2rem;
+  font-size: 1.4rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+}
+
+button {
+  padding: 0.8rem 1.4rem;
+  font-size: 1.4rem;
+  background-color: #1266cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #0a47a1;
+}
+
+.alert-box {
+  background-color: #dff0d8;
+  color: #3c763d;
+  padding: 1rem;
+  border-radius: 6px;
+  margin-top: 2rem;
+  border: 1px solid #d6e9c6;
+}
+
